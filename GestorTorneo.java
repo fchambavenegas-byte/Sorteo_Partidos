@@ -17,7 +17,7 @@ public class GestorTorneo {
     }
 
     private void sorteoRecursivo(List<String> equipos, List<Partido> partidos) {
-        // CASO BASE: Si hay menos de 2 equipos, ya no se pueden formar más partidos
+        // si hay menos de 2 equipos, ya no se pueden formar más partidos
         if (equipos.size() < 2) {
             return;
         }
